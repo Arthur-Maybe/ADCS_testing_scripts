@@ -6,7 +6,7 @@ PORT = '/dev/ttyUSB0'
 BAUD = 9600
 
 # Command ID for 'SetTrackingControllerTargetReference' (Check ICD/Header!)
-CMD_SET_TARGET = 
+CMD_SET_TARGET = 0x37
 
 def send_target(lat_deg, lon_deg, alt_km):
     try:
